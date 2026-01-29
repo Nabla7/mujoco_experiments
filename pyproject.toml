@@ -1,0 +1,17 @@
+[project]
+name = "kitchen-usd-mujoco"
+version = "0.1.0"
+description = "Minimal uv-managed MuJoCo Gymnasium env that loads a kitchen scene (OpenUSD when supported)."
+requires-python = ">=3.11"
+dependencies = [
+    "gymnasium>=1.2.3",
+    "numpy>=2.4.1",
+]
+
+[tool.uv]
+package = true
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+

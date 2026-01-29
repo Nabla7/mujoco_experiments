@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+MUJOCO_LOG.TXT
+
+# Local builds / vendored deps
+third_party/
+
+# Editable install metadata
+src/*.egg-info/
+
+# Large/derived outputs (don’t commit by default)
+generated/
+worldlabs_out/
+test_pics/
+
+# Pixar kitchen assets are under third-party terms; don’t push by default
+Kitchen_set/
+
+
